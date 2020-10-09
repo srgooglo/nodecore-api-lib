@@ -1,0 +1,20 @@
+{
+  "name": "nodecore-api-lib",
+  "version": "0.2.0",
+  "description": "Api request library oriented for the services of rstudio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ragestudio",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jest": "^26.5.2",
+    "path-to-regexp": "^6.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
