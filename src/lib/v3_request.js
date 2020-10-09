@@ -43,7 +43,7 @@ export default async (payload, callback) => {
     }
   }
 
-  axios({url, method: requestOptions.method, timeout: requestOptions.timeout, data: payloadContainer})
+  axios({url, method: requestOptions.method, timeout: requestOptions.timeout, data: payloadContainer, headers: {'Content-Type': 'multipart/form-data' }})
     .then((response) => {
         return callback(false, response.data)
     })

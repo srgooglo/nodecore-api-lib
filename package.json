@@ -1,6 +1,6 @@
 {
   "name": "@ragestudio/nodecore-api-lib",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Api request library oriented for the services of rstudio",
   "main": "index.js",
   "scripts": {
